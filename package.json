@@ -1,0 +1,34 @@
+{
+  "name": "giphysearch",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "post-update": "yarn upgrade --latest"
+  },
+  "dependencies": {
+    "@types/node": "14.14.41",
+    "@types/react": "17.0.3",
+    "dotenv": "8.2.0",
+    "image-trace-loader": "1.0.2",
+    "imagemin-optipng": "8.0.0",
+    "imagemin-svgo": "9.0.0",
+    "jimp": "0.16.1",
+    "lqip-loader": "2.2.1",
+    "next": "latest",
+    "next-compose-plugins": "2.2.1",
+    "next-images": "1.7.0",
+    "next-optimized-images": "2.6.2",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "responsive-loader": "2.3.0",
+    "sharp": "0.28.1",
+    "svg-sprite-loader": "6.0.5",
+    "typescript": "4.2.4",
+    "webp-loader": "0.6.0"
+  },
+  "license": "MIT",
+  "keywords": [],
+  "description": ""
+}
