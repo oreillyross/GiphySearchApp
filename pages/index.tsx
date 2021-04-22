@@ -13,7 +13,7 @@ import Image from "next/image"
 export default function IndexPage({ catGiphys }) {
   const [searchResults, setSearchResults] = useState([]);
   const [searchTerm, setSearchTerm] = useState("cats");
-  const [formInputs, setformInputs] = useState({});
+  const [formInputs, setformInputs] = useState({} as any);
 
   const handleInputs = (event) => {
     let { name, value } = event.target;
